@@ -51,7 +51,10 @@ header h1 a img { position: relative; top:-2px }
 header .menu ul { list-style: none; padding:0; margin:0 }
 header .menu ul li { display: inline-block }
 header .menu ul li a { display: inline-block; padding:21.5px 15px }
-header .menu ul li a:hover { display: inline-block; padding:15px 15px; background: #522e91; color:#fff; }
+header .menu ul li:hover > a { display: inline-block; padding:15px; background: #522e91; color:#fff; }
+header .menu ul li:hover ul { display:block }
+header .menu ul li ul { position: absolute; background:#fff; display:none }
+header .menu ul li ul li a { padding:15px }
 
 
 /* Reassign HelpersCSS
