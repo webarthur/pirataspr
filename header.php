@@ -135,6 +135,6 @@
 			</div>
 		</header>
 
-		<div layout="h-padding-20 center max-960" links="purple hover-orange no-decoration">
+		<div text="line-1.5" layout="h-padding-20 center max-960" links="purple hover-orange no-decoration">
 
-			<div layout="bottom-40 left" style="width:80%">
+			<div layout="bottom-40 left" style="width:80%; padding-right:60px; box-sizing:border-box">
